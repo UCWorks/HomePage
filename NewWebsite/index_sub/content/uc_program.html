@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>U.C.Works</title>
+    <!-- js読み込み	-->
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/colorbox.css">
+    <link rel="stylesheet" href="../../css/adipoli.css">
+    <link href='http://fonts.googleapis.com/css?family=Russo+One' rel='stylesheet' type='text/css'>
+    <link rel="javascript" href="../../js/jquery.bxSlider.min.js">
+    <link rel="javascript" href="../../js/jquery.backstretch.min.js">
+    <link rel="javascript" href="../../js/jquery.colorbox-min.js">
+    <link rel="javascript" href="../../js/jquery.adipoli.min.js">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.min.js"></script>
+    <script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
+    <script src="../../js/jquery.bxSlider.min.js"></script>
+    <script src="../../js/jquery.backstretch.min.js"></script>
+    <script src="../../js/jquery.colorbox-min.js"></script>
+    <script src="../../js/jquery.adipoli.min.js"></script>
+    <script src="../../js/contentmain.js"></script>
+    <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script src="../../js/audiojs/audio.min.js"></script>
+    <script>
+        audiojs.events.ready(function () {
+            var as = audiojs.createAll();
+        });
+    </script>
+</head>
+
+<body>
+    <div class="box">
+        <h1>U.C.Works</h1>
+        <nav id="menu">
+            <ul>
+                <li><a href="../../index.html"><img src="../../img/nav1.png"></a>HOME</li>
+                <li><a href="../uc_about.html"><img src="../../img/nav2.png"></a>ABOUT</li>
+                <li><img src="../../img/nav3_o.png">WORKS</li>
+                <li><a href="../uc_contact.html"><img src="../../img/nav4.png"></a>CONTACT</li>
+                <!-- <li><a href="../uc_invite.html"><img src="../../img/nav5.png"></a>INVITE</li> -->
+            </ul>
+        </nav>
+
+
+
+        <!-- 最初のボックス -->
+
+        <nav id="content">
+            <ul>
+                <li><a href="uc_game.html"><img src="content_resource/content1.png"></a>ABOUT</li>
+                <li><img src="content_resource/content2_o.png">ABOUT</li>
+                <li><a href="uc_graphic.html"><img src="content_resource/content3.png"></a>WORKS</li>
+                <li><a href="uc_sound.html"><img src="content_resource/content4.png"></a>CONTACT</li>
+                <li><a href="uc_scenario.html"><img src="content_resource/content5.png"></a>CONTACT</li>
+            </ul>
+        </nav>
+        <div id="content-works">
+
+            <div class="pBox">
+                <h2>PROGRAM</h2>
+                このページではU.C.Worksのプログラミング部門が制作したソフトウェアについて紹介します。
+            </div>
+
+
+            <div class="pBox">
+                <h2>HxamapEditor</h2>
+                六角形のマップを生成するソフトウェアです。<br />
+                六角形を16,777,216個まで生成することができ六角形の大きさも自由に変えることができます。<br />
+                生成する画像データの六角形は全て異なる色で塗られており、マウスの座標に対応する座標の<br />
+                色情報を取得することで、その座標にある六角形の番号を知ることができます。<br />
+                主にマップ上の六角形のあたり判定を行うために用います。<br />
+                今後は六角形を色別に塗ることができ、その情報を保持するファイルを生成できるようにする予定です。<br />
+                例えば、岩場、海、草原などにあたる部分を塗るとその情報を保持したバイナリデータが生成されます。<br />
+                RPGマップ、STRゲームのマップなどに使える幅広い汎用性を持つソフトウェアです。<br />
+                <br />
+                WindowsAPIとDXライブラリを用いていますが、DXライブラリの描画処理方法がWindowsAPIと<br />
+                共存できないために別のダイアログウィンドウを用いて分けています。<br />
+                <br />
+                <img src="program_resource/hexamapeditor.png" width="700" height="350" alt="じゃんけんマスター" title="じゃんけんマスター">
+            </div>
+
+            <div class="pBox">
+                <h2>じゃんけんマスター</h2>
+                <br />
+                某ゲームのキャラクターとじゃんけんをするゲームです。<br />
+                <img src="program_resource/jankenmaster.png" width="500" height="350" alt="じゃんけんマスター" title="じゃんけんマスター">
+            </div>
+            <div class="pBox">
+                <h2>○×ゲーム</h2>
+                コンピュータと○×ゲームで対戦するゲームです。<br />
+                <br />
+                <img src="program_resource/marubatsu.png" width="500" height="350" alt="○×ゲーム" title="○×ゲーム">
+            </div>
+            <div class="pBox">
+                <h2>Javaんけん</h2>
+                CPUプレイヤーを含め、最大8人でプレイ可能なじゃんけんゲーム。<br />
+                <br />
+                <img src="program_resource/Javanken.png" width="500" height="500" alt="○×ゲーム" title="○×ゲーム">
+            </div>
+            <p>&nbsp;</p>
+<p>&nbsp;</p>
+        </div>
+
+
+
+
+    </div>
+
+    <!-- 最後の箱 -->
+
+    <footer>
+        <iframe src="../../news/news.html" frameborder="0" width="100%" height="30"></iframe>
+    </footer>
+
+    <script type="text/javascript" src="http://ucworks.jp/analyze/mogura/w_js.php"></script>
+    <noscript>
+        <img src="http://ucworks.jp/analyze/mogura/writelog.php?mode=img&amp;guid=ON&amp;js=2" width="1" height="1" alt="">
+    </noscript>
+</body>
+</html>
