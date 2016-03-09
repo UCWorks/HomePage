@@ -2,42 +2,92 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
-        <title>U.C.Works</title>
+        <meta name="viewport" content="initial-scale=1.0">
         <link href="../../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="../../css/defaultstyle.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="../../js/materialize.js"></script>
+        <script type="text/javascript">
+        $( document ).ready(function(){
+            $(".button-collapse").sideNav();
+        })
+        </script>
+        <title>U.C.Works</title>
     </head>
     <body>
         <header>
-            <div class="row">
-                <div class="col s12 m10 offset-m1 l8 offset-l2">
-                    <div class="card-panel grey darken-2 white-text">
-                        <h2 class="card-title">GRAPHIC</h2>
-                        <p>
-                            このページではU.C.Worksグラフィック部門のR18コンテンツを紹介しています。<br>
-                            通常コンテンツはこちら<a href="./uc_graphic.html" class="waves-effect waves-light btn grey darken-4  white-text">GRAPHIC</a>
-                        </p>
-                    </div>
-                </div>
+        <ul id="dropdown" class="dropdown-content">
+            <li><a href="../../index_sub/content/uc_game.html">GAME</a></li>
+            <li><a href="../../index_sub/content/uc_program.html">PROGRAM</a></li>
+            <li><a href="../../index_sub/content/uc_graphic.html">GRAPHIC</a></li>
+            <li><a href="../../index_sub/content/uc_scenario.html">SCENARIO</a></li>
+            <li><a href="../../index_sub/content/uc_sound.html">SOUND</a></li>
+        </ul>
+        <ul id="dropdown-mobile" class="dropdown-content">
+            <li><a href="../../index_sub/content/uc_game.html">GAME</a></li>
+            <li><a href="../../index_sub/content/uc_program.html">PROGRAM</a></li>
+            <li><a href="../../index_sub/content/uc_graphic.html">GRAPHIC</a></li>
+            <li><a href="../../index_sub/content/uc_scenario.html">SCENARIO</a></li>
+            <li><a href="../../index_sub/content/uc_sound.html">SOUND</a></li>
+        </ul>
+        <nav>
+            <div class="nav-wrapper grey darken-4">
+              <a href="../..#!" class="right brand-logo">U.C.Works</a>
+              <a href="../..#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+              <ul class="hide-on-med-and-down">
+                <li><a href="../../index.html">HOME</a></li>
+                <li><a href="../../index_sub/uc_about.html">ABOUT</a></li>
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown">CONTENT<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="../../index_sub/uc_invite.html">INVITE</a></li>
+                <li><a href="../../index_sub/uc_contact.html">CONTACT</a></li>
+              </ul>
+
+              <ul class="side-nav grey darken-4" id="mobile-nav">
+                  <li><a href="../../index.html">HOME</a></li>
+                  <li><a href="../../index_sub/uc_about.html">ABOUT</a></li>
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown-mobile" >CONTENT<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="../../index_sub/uc_invite.html">INVITE</a></li>
+                <li><a href="../../index_sub/uc_contact.html">CONTACT</a></li>
+              </ul>
             </div>
+          </nav>
         </header>
         <main>
             <article>
                 <div class="row">
                     <div class="col s12 m10 offset-m1 l8 offset-l2">
                         <div class="card-panel grey darken-2 white-text">
-                            <h2 class="card-title">ILLUST</h2>
-                            <ul>
-                                <li><a href="graphic_resource/works_r18/c81_front.png" ><img class="responsive-img" src="graphic_resource/icon_r18/medachita_girl.png" alt=""/></a></li>
-                                <li><a href="graphic_resource/works_r18/C79_book.png" ><img class="responsive-img" src="graphic_resource/icon_r18/urial.png" alt=""/></a></li>
-                                <li><a href="graphic_resource/works_r18/usabitch_now.png" ><img class="responsive-img" src="graphic_resource/icon_r18/usabitch_now.png" alt=""/></a></li>
-                            </ul>
+                            <h2 class="card-title">GRAPHIC</h2>
+                            <p>
+                                このページではU.C.Worksグラフィック部門のR18コンテンツを紹介しています。<br>
+                                通常コンテンツはこちら<a href="./uc_graphic.html" class="waves-effect waves-light btn grey darken-4  white-text">GRAPHIC</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m10 offset-m1 l8 offset-l2">
+                        <div class="card-panel grey darken-2 white-text">
+                            <section>
+                                <h2 class="card-title">ILLUST</h2>
+                                <ul>
+                                    <li><a href="graphic_resource/works_r18/c81_front.png" ><img class="responsive-img" src="graphic_resource/icon_r18/medachita_girl.png" alt=""/></a></li>
+                                    <li><a href="graphic_resource/works_r18/C79_book.png" ><img class="responsive-img" src="graphic_resource/icon_r18/urial.png" alt=""/></a></li>
+                                    <li><a href="graphic_resource/works_r18/usabitch_now.png" ><img class="responsive-img" src="graphic_resource/icon_r18/usabitch_now.png" alt=""/></a></li>
+                                </ul>
+                            </section>
                         </div>
                     </div>
                 </div>
             </article>
         </main>
         <footer>
+            <div class="footer-copyright grey darken-4 white-text">
+                <div class="container">
+                Copyright © 2005-2016 All rights reserved. U.C.Works
+                </div>
+            </div>
         </footer>
     </body>
 </html>

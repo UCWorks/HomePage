@@ -2,88 +2,138 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
-        <title>U.C.Works</title>
+        <meta name="viewport" content="initial-scale=1.0">
         <link href="../../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="../../css/defaultstyle.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="../../js/materialize.js"></script>
+        <script type="text/javascript">
+        $( document ).ready(function(){
+            $(".button-collapse").sideNav();
+        })
+        </script>
+        <title>U.C.Works</title>
     </head>
     <body>
         <header>
-            <div class="row">
-                <div class="col s12 m10 offset-m1 l8 offset-l2">
-                    <div class="card-panel grey darken-2 white-text">
-                        <h2 class="card-title">PROGRAM</h2>
-                        <p>
-                            このページではU.C.Worksのプログラミング部門が制作したソフトウェアについて紹介します。
-                        </p>
-                    </div>
-                </div>
+        <ul id="dropdown" class="dropdown-content">
+            <li><a href="../../index_sub/content/uc_game.html">GAME</a></li>
+            <li><a href="../../index_sub/content/uc_program.html">PROGRAM</a></li>
+            <li><a href="../../index_sub/content/uc_graphic.html">GRAPHIC</a></li>
+            <li><a href="../../index_sub/content/uc_scenario.html">SCENARIO</a></li>
+            <li><a href="../../index_sub/content/uc_sound.html">SOUND</a></li>
+        </ul>
+        <ul id="dropdown-mobile" class="dropdown-content">
+            <li><a href="../../index_sub/content/uc_game.html">GAME</a></li>
+            <li><a href="../../index_sub/content/uc_program.html">PROGRAM</a></li>
+            <li><a href="../../index_sub/content/uc_graphic.html">GRAPHIC</a></li>
+            <li><a href="../../index_sub/content/uc_scenario.html">SCENARIO</a></li>
+            <li><a href="../../index_sub/content/uc_sound.html">SOUND</a></li>
+        </ul>
+        <nav>
+            <div class="nav-wrapper grey darken-4">
+              <a href="../..#!" class="right brand-logo">U.C.Works</a>
+              <a href="../..#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+              <ul class="hide-on-med-and-down">
+                <li><a href="../../index.html">HOME</a></li>
+                <li><a href="../../index_sub/uc_about.html">ABOUT</a></li>
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown">CONTENT<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="../../index_sub/uc_invite.html">INVITE</a></li>
+                <li><a href="../../index_sub/uc_contact.html">CONTACT</a></li>
+              </ul>
+
+              <ul class="side-nav grey darken-4" id="mobile-nav">
+                  <li><a href="../../index.html">HOME</a></li>
+                  <li><a href="../../index_sub/uc_about.html">ABOUT</a></li>
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown-mobile" >CONTENT<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="../../index_sub/uc_invite.html">INVITE</a></li>
+                <li><a href="../../index_sub/uc_contact.html">CONTACT</a></li>
+              </ul>
             </div>
+          </nav>
         </header>
         <main>
             <article>
                 <div class="row">
                     <div class="col s12 m10 offset-m1 l8 offset-l2">
                         <div class="card-panel grey darken-2 white-text">
-                            <h2 class="card-title">HxamapEditor</h2>
+                            <h2 class="card-title">PROGRAM</h2>
                             <p>
-                                六角形のマップを生成するソフトウェアです。<br>
-                                六角形を16,777,216個まで生成することができ六角形の大きさも自由に変えることができます。<br>
-                                生成する画像データの六角形は全て異なる色で塗られており、マウスの座標に対応する座標の
-                                色情報を取得することで、その座標にある六角形の番号を知ることができます。<br>
-                                主にマップ上の六角形のあたり判定を行うために用います。<br>
-                                今後は六角形を色別に塗ることができ、その情報を保持するファイルを生成できるようにする予定です。<br>
-                                例えば、岩場、海、草原などにあたる部分を塗るとその情報を保持したバイナリデータが生成されます。<br>
-                                RPGマップ、STRゲームのマップなどに使える幅広い汎用性を持つソフトウェアです。<br>
-                                WindowsAPIとDXライブラリを用いていますが、DXライブラリの描画処理方法がWindowsAPIと<br>
-                                共存できないために別のダイアログウィンドウを用いて分けています。
+                                このページではU.C.Worksのプログラミング部門が制作したソフトウェアについて紹介します。
                             </p>
-                            <img class="responsive-img" src="program_resource/hexamapeditor.png"  alt="" >
                         </div>
                     </div>
                 </div>
-            </article>
-            <article>
                 <div class="row">
                     <div class="col s12 m10 offset-m1 l8 offset-l2">
                         <div class="card-panel grey darken-2 white-text">
-                            <h2 class="card-title">じゃんけんマスター</h2>
-                            <p>
-                                某ゲームのキャラクターとじゃんけんをするゲームです。
-                            </p>
-                            <img class="responsive-img" src="program_resource/jankenmaster.png"  alt="" >
+                            <section>
+                                <h2 class="card-title">HxamapEditor</h2>
+                                <p>
+                                    六角形のマップを生成するソフトウェアです。<br>
+                                    六角形を16,777,216個まで生成することができ六角形の大きさも自由に変えることができます。<br>
+                                    生成する画像データの六角形は全て異なる色で塗られており、マウスの座標に対応する座標の
+                                    色情報を取得することで、その座標にある六角形の番号を知ることができます。<br>
+                                    主にマップ上の六角形のあたり判定を行うために用います。<br>
+                                    今後は六角形を色別に塗ることができ、その情報を保持するファイルを生成できるようにする予定です。<br>
+                                    例えば、岩場、海、草原などにあたる部分を塗るとその情報を保持したバイナリデータが生成されます。<br>
+                                    RPGマップ、STRゲームのマップなどに使える幅広い汎用性を持つソフトウェアです。<br>
+                                    WindowsAPIとDXライブラリを用いていますが、DXライブラリの描画処理方法がWindowsAPIと<br>
+                                    共存できないために別のダイアログウィンドウを用いて分けています。
+                                </p>
+                                <img class="responsive-img" src="program_resource/hexamapeditor.png"  alt="" >
+                            </section>
                         </div>
                     </div>
                 </div>
-            </article>
-            <article>
                 <div class="row">
                     <div class="col s12 m10 offset-m1 l8 offset-l2">
                         <div class="card-panel grey darken-2 white-text">
-                            <h2 class="card-title">○×ゲーム</h2>
-                            <p>
-                                コンピュータと○×ゲームで対戦するゲームです。
-                            </p>
-                            <img class="responsive-img" src="program_resource/marubatsu.png"  alt="" >
+                            <section>
+                                <h2 class="card-title">じゃんけんマスター</h2>
+                                <p>
+                                    某ゲームのキャラクターとじゃんけんをするゲームです。
+                                </p>
+                                <img class="responsive-img" src="program_resource/jankenmaster.png"  alt="" >
+                            </section>
                         </div>
                     </div>
                 </div>
-            </article>
-            <article>
                 <div class="row">
                     <div class="col s12 m10 offset-m1 l8 offset-l2">
                         <div class="card-panel grey darken-2 white-text">
-                            <h2 class="card-title">Javaんけん</h2>
-                            <p>
-                                CPUプレイヤーを含め、最大8人でプレイ可能なじゃんけんゲーム。
-                            </p>
-                            <img class="responsive-img" src="program_resource/Javanken.png"  alt="" >
+                            <section>
+                                <h2 class="card-title">○×ゲーム</h2>
+                                <p>
+                                    コンピュータと○×ゲームで対戦するゲームです。
+                                </p>
+                                <img class="responsive-img" src="program_resource/marubatsu.png"  alt="" >
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m10 offset-m1 l8 offset-l2">
+                        <div class="card-panel grey darken-2 white-text">
+                            <section>
+                                <h2 class="card-title">Javaんけん</h2>
+                                <p>
+                                    CPUプレイヤーを含め、最大8人でプレイ可能なじゃんけんゲーム。
+                                </p>
+                                <img class="responsive-img" src="program_resource/Javanken.png"  alt="" >
+                            </section>
                         </div>
                     </div>
                 </div>
             </article>
         </main>
         <footer>
+            <div class="footer-copyright grey darken-4 white-text">
+                <div class="container">
+                Copyright © 2005-2016 All rights reserved. U.C.Works
+                </div>
+            </div>
         </footer>
     </body>
 </html>
