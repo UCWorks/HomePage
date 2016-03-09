@@ -2,95 +2,171 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
-        <title>U.C.Works - Graphic -</title>
+        <meta name="viewport" content="initial-scale=1.0">
+        <link href="../../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="../../css/defaultstyle.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="../../js/materialize.js"></script>
+        <script type="text/javascript">
+        $( document ).ready(function(){
+            $(".button-collapse").sideNav();
+        })
+        </script>
+        <title>U.C.Works</title>
     </head>
     <body>
         <header>
-            <h2>GRAPHIC</h2>
-            <p>
-                このページではU.C.Worksのグラフィック部門が制作したイラスト、3Dグラフィックを公開しています。
-                アイコンの選択で画像別ページへ移動します。
-                18禁コンテンツはこちら<a href="./uc_graphic_r18.html"><img src="./graphic_resource/r18.png" alt="" /></a>
-            </p>
+        <ul id="dropdown" class="dropdown-content">
+            <li><a href="../../index_sub/content/uc_game.html">GAME</a></li>
+            <li><a href="../../index_sub/content/uc_program.html">PROGRAM</a></li>
+            <li><a href="../../index_sub/content/uc_graphic.html">GRAPHIC</a></li>
+            <li><a href="../../index_sub/content/uc_scenario.html">SCENARIO</a></li>
+            <li><a href="../../index_sub/content/uc_sound.html">SOUND</a></li>
+        </ul>
+        <ul id="dropdown-mobile" class="dropdown-content">
+            <li><a href="../../index_sub/content/uc_game.html">GAME</a></li>
+            <li><a href="../../index_sub/content/uc_program.html">PROGRAM</a></li>
+            <li><a href="../../index_sub/content/uc_graphic.html">GRAPHIC</a></li>
+            <li><a href="../../index_sub/content/uc_scenario.html">SCENARIO</a></li>
+            <li><a href="../../index_sub/content/uc_sound.html">SOUND</a></li>
+        </ul>
+        <nav>
+            <div class="nav-wrapper grey darken-4">
+              <a href="../..#!" class="right brand-logo">U.C.Works</a>
+              <a href="../..#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+              <ul class="hide-on-med-and-down">
+                <li><a href="../../index.html">HOME</a></li>
+                <li><a href="../../index_sub/uc_about.html">ABOUT</a></li>
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown">CONTENT<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="../../index_sub/uc_invite.html">INVITE</a></li>
+                <li><a href="../../index_sub/uc_contact.html">CONTACT</a></li>
+              </ul>
+
+              <ul class="side-nav grey darken-4" id="mobile-nav">
+                  <li><a href="../../index.html">HOME</a></li>
+                  <li><a href="../../index_sub/uc_about.html">ABOUT</a></li>
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown-mobile" >CONTENT<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="../../index_sub/uc_invite.html">INVITE</a></li>
+                <li><a href="../../index_sub/uc_contact.html">CONTACT</a></li>
+              </ul>
+            </div>
+          </nav>
         </header>
         <main>
             <article>
-                <h2>ILLUST</h2>
-                    <ul>
-                        <li><a  href="./graphic_resource/works/tsuisou_allure.jpg"  ><img  src="./graphic_resource/icon/tsuisou_allure.png" alt=""/></a></li>
-                        <li><a  href="./graphic_resource/works/aka_univfes2010.png" ><img  src="./graphic_resource/icon/aka.png" alt="" /></a></li>
-                        <li><a  href="./graphic_resource/works/2011M3.png" ><img  src="./graphic_resource/icon/hakoniwagenkai.png" alt="" /></a></li>
-                        <li><a  href="./graphic_resource/works/2009univFes.jpg" ><img  src="./graphic_resource/icon/gensou_allure.png" alt="" /></a></li>
-                        <li><a  href="./graphic_resource/works/C79_cd.jpg" ><img  src="./graphic_resource/icon//there_is_nothing.png" alt="" /></a></li>
-                        <li><a  href="./graphic_resource/works/alice_c81.png" ><img  src="./graphic_resource/icon/alice.png" alt="" /></a></li>
-                    </ul>
-                <section>
-                    <h2>3DGraphic</h2>
-                    <ul>
-                        <li><a  href="./graphic_resource/works/cherry.png" ><img  src="./graphic_resource/icon/cherry_icon.png" alt="" /></a></li>
-                        <li><a  href="./graphic_resource/works/object.png" ><img  src="./graphic_resource/icon/object_icon.png" alt="" /></a></li>
-                    </ul>
-                </section>
+                <div class="row">
+                    <div class="col s12 m10 offset-m1 l8 offset-l2">
+                        <div class="card-panel grey darken-2 white-text">
+                            <h3 class="card-title">GRAPHIC</h3>
+                            <p>
+                                このページではU.C.Worksのグラフィック部門が制作したイラスト、3Dグラフィックを公開しています。<br>
+                                アイコンの選択で画像別ページへ移動します。<br>
+                                18禁コンテンツはこちら<a href="./uc_graphic_r18.html" class="waves-effect waves-light btn grey darken-4  white-text">R-18</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m10 offset-m1 l8 offset-l2">
+                        <div class="card-panel grey darken-2 white-text">
+                            <section>
+                                <h3 class="card-title">ILLUST</h3>
+                                <ul >
+                                    <li><img class="z-depth-2" src="./graphic_resource/icon/tsuisou_allure.png" alt=""/></li>
+                                    <li><img class="z-depth-2" src="./graphic_resource/icon/aka.png" alt="" /></li>
+                                    <li><img class="z-depth-2" src="./graphic_resource/icon/hakoniwagenkai.png" alt="" /></li>
+                                    <li><img class="z-depth-2" src="./graphic_resource/icon/gensou_allure.png" alt="" /></li>
+                                    <li><img class="z-depth-2" src="./graphic_resource/icon//there_is_nothing.png" alt="" /></li>
+                                    <li><img class="z-depth-2" src="./graphic_resource/icon/alice.png" alt="" /></li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m10 offset-m1 l8 offset-l2">
+                        <div class="card-panel grey darken-2 white-text">
+                            <section>
+                                <h2 class="card-title">3DGraphic</h2>
+                                <ul>
+                                    <li><a class="responsive-img" href="./graphic_resource/works/cherry.png" ><img  src="./graphic_resource/icon/cherry_icon.png" alt="" /></a></li>
+                                    <li><a class="responsive-img" href="./graphic_resource/works/object.png" ><img  src="./graphic_resource/icon/object_icon.png" alt="" /></a></li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+                </div>
             </article>
             <article>
-                <h2>POSTER</h2>
-                <p>
-                    グラフィック部門が描いた平成27年度のポスターです。
-                    A4ポスター故にサイズが大変大きいです。
-                    表示領域が小さい端末で閲覧をされる方は気をつけください。
-                </p>
-                <section>
-                    <h3>Ver.1</h3>
-                    <p>
-                        アニメ『PSYCHO-PASS』のサイバーパンクをイメージにしたポスターです。
-                        背景にはサウンド部門を表す波形データ、グラフィック部門を表す3Dモデル、
-                        プログラミング部門を表すソースコードが描かれています。
-                    </p>
-                    <ul>
-                        <li><a  href="./graphic_resource/poster/core1poster.jpg" ><img  src="./graphic_resource/icon/core1poster_icon.png" alt="" /></a></li>
-                    </ul>
-                </section>
-                <section>
-                    <h3>Ver.2</h3>
-                    <p>
-                        映画『楽園追放』に登場するフロンティアセッターと呼ばれる
-                        キャラクターが持つコンピュータの背景をモチーフにしています。
-                        背景にはサウンド部門を表す波形データ、グラフィック部門を表す線画、
-                        プログラミング部門を表すソースコード、シナリオ部門を表す英文が描かれています。
-                        英文の内容はヘンゼルとグレーテル。左は掲示ポスター、右はビラver。
-                    </p>
-                    <ul>
-                        <li><a  href="./graphic_resource/poster/core2poster.jpg" ><img  src="./graphic_resource/icon/core2poster_icon.png" alt="" /></a></li>
-                        <li><a  href="./graphic_resource/poster/core2bill.jpg" ><img  src="./graphic_resource/icon/core2bill_icon.png" alt="" /></a></li>
-                    </ul>
-                </section>
-                <section>
-                    <h3>Ver.3</h3>
-                    <p>
-                        ホラー形フリーゲーム『ib』をモチーフにしたポスターです。
-                        四隅にはキャラクターの残りHPを表すバラを描いています。
-                        ゆっくりはゲームに登場するキャラクター『メアリー』。
-                        左は掲示ポスター、右はビラver。
-                    </p>
-                    <ul>
-                        <li><a  href="./graphic_resource/poster/buchiposter.jpg" title=""><img  src="./graphic_resource/icon/buchiposter_icon.png" alt="" /></a></li>
-                        <li><a  href="./graphic_resource/poster/buchibill.jpg" title=""><img  src="./graphic_resource/icon/buchibill_icon.png" alt="" /></a></li>
-                    </ul>
-                </section>
-                <section>
-                    <h3>Ver.4</h3>
-                    <p>
-                        複数の立方体を配置した背景の後ろにこのポスターを
-                        C言語で表示する場合のソースコードが配置してあります。
-                    </P>
-                    <ul>
-                        <li><a  href="./graphic_resource/poster/kichinagaposter.jpg" title=""><img  src="./graphic_resource/icon/kichinagaposter_icon.png" alt="" /></a></li>
-                    </ul>
-                </section>
+                <div class="row">
+                    <div class="col s12 m10 offset-m1 l8 offset-l2">
+                        <div class="card-panel grey darken-2 white-text">
+                            <h2 class="card-title">POSTER</h2>
+                            <p>
+                                グラフィック部門が描いた平成27年度のポスターです。
+                                A4ポスター故にサイズが大変大きいです。
+                                表示領域が小さい端末で閲覧をされる方は気をつけください。
+                            </p>
+                            <section>
+                                <h3 class="card-title">Ver.1</h3>
+                                <p>
+                                    アニメ『PSYCHO-PASS』のサイバーパンクをイメージにしたポスターです。
+                                    背景にはサウンド部門を表す波形データ、グラフィック部門を表す3Dモデル、
+                                    プログラミング部門を表すソースコードが描かれています。
+                                </p>
+                                <ul>
+                                    <li><a href="./graphic_resource/poster/core1poster.jpg" ><img class="responsive-img" src="./graphic_resource/icon/core1poster_icon.png" alt="" /></a></li>
+                                </ul>
+                            </section>
+                            <section>
+                                <h3 class="card-title">Ver.2</h3>
+                                <p>
+                                    映画『楽園追放』に登場するフロンティアセッターと呼ばれる
+                                    キャラクターが持つコンピュータの背景をモチーフにしています。
+                                    背景にはサウンド部門を表す波形データ、グラフィック部門を表す線画、
+                                    プログラミング部門を表すソースコード、シナリオ部門を表す英文が描かれています。
+                                    英文の内容はヘンゼルとグレーテル。上は掲示ポスター、下はビラver。
+                                </p>
+                                <ul>
+                                    <li><a href="./graphic_resource/poster/core2poster.jpg" ><img class="responsive-img" src="./graphic_resource/icon/core2poster_icon.png" alt="" /></a></li>
+                                    <li><a href="./graphic_resource/poster/core2bill.jpg" ><img class="responsive-img" src="./graphic_resource/icon/core2bill_icon.png" alt="" /></a></li>
+                                </ul>
+                            </section>
+                            <section>
+                                <h3 class="card-title">Ver.3</h3>
+                                <p>
+                                    ホラー形フリーゲーム『ib』をモチーフにしたポスターです。
+                                    四隅にはキャラクターの残りHPを表すバラを描いています。
+                                    ゆっくりはゲームに登場するキャラクター『メアリー』。
+                                    上は掲示ポスター、下はビラver。
+                                </p>
+                                <ul>
+                                    <li><a href="./graphic_resource/poster/buchiposter.jpg" title=""><img class="responsive-img" src="./graphic_resource/icon/buchiposter_icon.png" alt="" /></a></li>
+                                    <li><a href="./graphic_resource/poster/buchibill.jpg" title=""><img class="responsive-img" src="./graphic_resource/icon/buchibill_icon.png" alt="" /></a></li>
+                                </ul>
+                            </section>
+                            <section>
+                                <h3 class="card-title">Ver.4</h3>
+                                <p>
+                                    複数の立方体を配置した背景の後ろにこのポスターを
+                                    C言語で表示する場合のソースコードが配置してあります。
+                                </P>
+                                <ul>
+                                    <li><a href="./graphic_resource/poster/kichinagaposter.jpg" title=""><img class="responsive-img" src="./graphic_resource/icon/kichinagaposter_icon.png" alt="" /></a></li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+                </div>
             </article>
         </main>
         <footer>
-
+            <div class="footer-copyright grey darken-4 white-text">
+                <div class="container">
+                Copyright © 2005-2016 All rights reserved. U.C.Works
+                </div>
+            </div>
         </footer>
     </body>
 </html>
