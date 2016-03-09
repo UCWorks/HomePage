@@ -1,17 +1,55 @@
-<ul id="dropdown">
-    <li><a href="#!">PROGRAM</a></li>
-    <li><a href="#!">GRAPHIC</a></li>
-    <li><a href="#!">SCENARIO</a></li>
-    <li><a href="#!">SOUND</a></li>
-</ul>
-<nav>
-    <div>
-        <ul>
-            <li><a href="#">TOP</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">CONTENTS</a></li>
-            <li><a href="#">INVITE</a></li>
-            <li><a href="#">CONTACT</a></li>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <meta name="viewport" content="initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="../../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="../../css/defaultstyle.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <script src="../../js/materialize.js"></script>
+        <script type="text/javascript">
+            $( document ).ready(function(){
+                $(".button-collapse").sideNav();
+            })
+        </script>
+    </head>
+    <body>
+        <ul id="dropdown" class="dropdown-content">
+            <li><a href="/index_sub/content/uc_game.html">GAME</a></li>
+            <li><a href="/index_sub/content/uc_program.html">PROGRAM</a></li>
+            <li><a href="/index_sub/content/uc_graphic.html">GRAPHIC</a></li>
+            <li><a href="/index_sub/content/uc_scenario.html">SCENARIO</a></li>
+            <li><a href="/index_sub/content/uc_sound.html">SOUND</a></li>
         </ul>
-    </div>
-</nav>
+        <ul id="dropdown-mobile" class="dropdown-content">
+            <li><a href="/index_sub/content/uc_game.html">GAME</a></li>
+            <li><a href="/index_sub/content/uc_program.html">PROGRAM</a></li>
+            <li><a href="/index_sub/content/uc_graphic.html">GRAPHIC</a></li>
+            <li><a href="/index_sub/content/uc_scenario.html">SCENARIO</a></li>
+            <li><a href="/index_sub/content/uc_sound.html">SOUND</a></li>
+        </ul>
+        <nav>
+            <div class="nav-wrapper grey darken-4">
+              <a href="#!" class="brand-logo">U.C.Works</a>
+              <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+              <ul class="hide-on-med-and-down">
+                <li><a href="/index.html">HOME</a></li>
+                <li><a href="/index_sub/uc_about.html">ABOUT</a></li>
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown">CONTENT<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="/index_sub/uc_invite.html">INVITE</a></li>
+                <li><a href="/index_sub/uc_contact.html">CONTACT</a></li>
+              </ul>
+              <ul class="side-nav collapsible grey darken-4" data-collapsible="accordion"
+              id="mobile-nav">
+                  <li><a href="/index.html">HOME</a></li>
+                  <li><a href="/index_sub/uc_about.html">ABOUT</a></li>
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown-mobile">CONTENT<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="/index_sub/uc_invite.html">INVITE</a></li>
+                <li><a href="/index_sub/uc_contact.html">CONTACT</a></li>
+              </ul>
+            </div>
+          </nav>
+    </body>
+</html>

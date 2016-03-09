@@ -1,0 +1,35 @@
+h1{
+  font-size: 1.5em;
+
+}
+h2{
+  font-size: 1.25em;
+}
+
+h1,h2{
+  line-height: 80%;
+  margin: 1.78rem 0 1.424rem 0;
+}
+h2.card-title{
+  margin: 0 0 0 0;
+}
+body {
+    background-color: #FFFFFF;
+}
+.group-card {
+    margin: 0.5rem 0 0 0;
+
+}
+footer {
+  margin-top: 3rem;
+}
+header{
+  margin-bottom: 2rem;
+}
+
+.hide-on-med-and-down li a,.side-nav li a{
+  color: #FFFFFF;
+}
+.dropdown-content li > a{
+  color: #212121;
+}
