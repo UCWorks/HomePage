@@ -1,105 +1,165 @@
 ﻿<!DOCTYPE html>
 <html lang="ja">
 <head>
-	<meta charset="UTF-8">
-	<title>U.C.Works</title>
-	<link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-	<script src="../js/materialize.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="../css/defaultstyle.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="../js/materialize.js"></script>
+    <script type="text/javascript">
+    $( document ).ready(function(){
+        $(".button-collapse").sideNav();
+    })
+    </script>
+    <title>U.C.Works</title>
 </head>
-
 <body>
+</div>
 	<header>
+	        <ul id="dropdown" class="dropdown-content">
+	            <li><a href="../index_sub/content/uc_game.html">GAME</a></li>
+	            <li><a href="../index_sub/content/uc_program.html">PROGRAM</a></li>
+	            <li><a href="../index_sub/content/uc_graphic.html">GRAPHIC</a></li>
+	            <li><a href="../index_sub/content/uc_scenario.html">SCENARIO</a></li>
+	            <li><a href="../index_sub/content/uc_sound.html">SOUND</a></li>
+	        </ul>
+	        <ul id="dropdown-mobile" class="dropdown-content">
+	            <li><a href="../index_sub/content/uc_game.html">GAME</a></li>
+	            <li><a href="../index_sub/content/uc_program.html">PROGRAM</a></li>
+	            <li><a href="../index_sub/content/uc_graphic.html">GRAPHIC</a></li>
+	            <li><a href="../index_sub/content/uc_scenario.html">SCENARIO</a></li>
+	            <li><a href="../index_sub/content/uc_sound.html">SOUND</a></li>
+	        </ul>
+	        <nav>
+	            <div class="nav-wrapper grey darken-4">
+	              <a href="..#!" class="right brand-logo">U.C.Works</a>
+	              <a href="..#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+	              <ul class="hide-on-med-and-down">
+	                <li><a href="../index.html">HOME</a></li>
+	                <li><a href="../index_sub/uc_about.html">ABOUT</a></li>
+	                <li><a class="dropdown-button" href="#!" data-activates="dropdown">CONTENT<i class="material-icons right">arrow_drop_down</i></a></li>
+	                <li><a href="../index_sub/uc_invite.html">INVITE</a></li>
+	                <li><a href="../index_sub/uc_contact.html">CONTACT</a></li>
+	              </ul>
+
+	              <ul class="side-nav grey darken-4" id="mobile-nav">
+	                  <li><a href="../index.html">HOME</a></li>
+	                  <li><a href="../index_sub/uc_about.html">ABOUT</a></li>
+	                <li><a class="dropdown-button" href="#!" data-activates="dropdown-mobile" >CONTENT<i class="material-icons right">arrow_drop_down</i></a></li>
+	                <li><a href="../index_sub/uc_invite.html">INVITE</a></li>
+	                <li><a href="../index_sub/uc_contact.html">CONTACT</a></li>
+	              </ul>
+	            </div>
+	          </nav>
+
 	</header>
-	<main class="row">
-		<div class="col s12 m10 offset-m1 l8 offset-l2">
-			<article class="card grey darken-2">
-				<div class="card-content white-text">
-					<h3 class="card-title">ABOUT US</h3>
+	<main>
+		<article>
+			<div class="row">
+				<div class="col s12 m10 offset-m1 l8 offset-l2">
+					<h1 class="header">ABOUT US</h1>
+					<div class="card-panel grey darken-2 white-text">
 						<p>
 							U.C.Worksは2008年に結成された中京大学を中心に活動する総合創作サークルです。
-						  コミケなどのイベントでは主に同人ゲーム・同人誌・同人音楽を配布しております。
+							コミケなどのイベントでは主に同人ゲーム・同人誌・同人音楽を配布しております。
 
 							U.C.Worksの本来の意味は、『Unified.Communications.Works』 です。
 						  ユニファイドコミュニケーションとは、メッセンジャーやWindowsSheredや音声通話などを複合して用いることで
 						  より、作業を効率的に進め、ストレスフリーな協同作業環境を実現するという意味のIT用語です。
 						  我々は、このサークル名に乗っ取り、より効率的に、よりアクティブに活動に対して取り組んでいきます。
 						</p>
+					</div>
 				</div>
-			</article>
-			<article class="card grey darken-2">
-				<div class="card-content white-text">
-					<h3 class="card-title">CONTENT PRODUCTION</h3>
-			    <p>
-			      ゲームプログラミング 同人誌 漫画 MAD動画 アニメーション制作<br />
-			      CG 3DCG ノベル制作 雑誌 音楽 DTM 声アテ HP制作...etc
-			    </p>
+			</div>
+		</article>
+		<article>
+			<div class="row">
+				<div class="col s12 m10 offset-m1 l8 offset-l2">
+					<h1 class="header">CONTENT PRODUCTION</h1>
+					<div class="card-panel grey darken-2 white-text">
+			  	  <p>
+			    	  ゲームプログラミング 同人誌 漫画 MAD動画 アニメーション制作<br />
+			      	CG 3DCG ノベル制作 雑誌 音楽 DTM 声アテ HP制作...etc
+			    	</p>
+					</div>
 				</div>
-			</article>
-			<article class="card grey darken-2">
-				<div class="card-content white-text">
-					<h3 class="card-title">ORGANIZATIONAL STRUCTURE</h3>
-					<p>
-						U.C.Worksはグラフィック、プログラミング、サウンド、シナリオの４つの部門で構成されています。
-						個々の部門でそれぞれ作品を作るとともに、ゲーム制作を協力して行います。
-					</p>
-					<ul class="collapsible" data-collapsible="accordion">
-					  <li>
-				      <div class="collapsible-header grey darken-3">PROGRAMMING</div>
-				      <div class="collapsible-body"><p>
-									【活動】：普段は課題を設定してその仕様を満たすプログラムを作成したり、そのための勉強をしたりしています。サークルHPの管理も行っています。<br />
-					      【環境】：使用言語は主にC++。それ以外にもJava,VisualBasic,Javascript,etc.COBOLを使う人もいます。<br />
-					      　　　　工学部1年生はCやC++を学ぶのでサークルでの勉強が無駄になることはありません。<br />
-					      　　　　ゲーム制作には初心者でも扱いやすいDXライブラリを使用しています。<br />
-					      初心者には分かりにくい分野ですがプログラミングの勉強の仕方、基礎的な概念は先輩が教えてくれます。<br />
-					      またC++言語には無限の知識があります。経験と自信のある方、一緒に自分を磨きませんか？
-								</p></div>
-				    </li>
-				    <li>
-				      <div class="collapsible-header grey darken-3">GRAPHIC</div>
-				      <div class="collapsible-body"><p>
-									【活動】：普段はpixivのグループ機能やクラウドグループウェアのサイボウズを使ってイラスト・3Dモデルを公開し、<br />
-						      　　　　　サークル内のメンバーから感想や意見をもらっています。年によっては同人作品をコミックマーケットにて<br />
-					  	    　　　　　頒布しています。<br />
-						      【環境】：初心者には無料ソフトウェアGIMPをオススメしていますが、Photoshop,SAIなどを使う人もいます。<br />
-						      　　　　　グラフィックの作成にはペンタブを用いるのが一般的ですが、マウスで棒人間GIFやドット絵を描いたり、<br />
-						      　　　　　鉛筆・シャープペンシルでアナログ絵を描いたりする人もいます。<br />
-						      　　　　　3Dモデル制作にはMetasequoiaを使用しています。<br />
-						      初心者でも経験者でも楽しむことができます。
-								</p></div>
-				    </li>
-				    <li>
-				      <div class="collapsible-header grey darken-3">SOUND</div>
-				      <div class="collapsible-body"><p>
-									  【活動】：普段は活動最低限必要な楽典を学ぶための講座を開いて勉強をしたり、30秒程度の曲を<br />
-								  	　　　　　作成して相互に評価したりしています。ゲームのプロジェクトではBGMや効果音を担当します。<br />
-									  【環境】：現在は無料の音楽編集ソフトDominoを使用して曲を作成していますが、<br />
-									  　　　　　Cubaseなどより本格的なDAWソフトを導入することも考えています。<br />
-									  　　　　　コンピュータとマウスがあれば音楽制作はできますが、MIDIキーボードがあるとより<br />
-									  　　　　　簡単に音楽を作ることが出来るようになります。<br />
-									  DTMの経験がある方、楽器の経験がある方はもちろん、初心者でも基本的なコード理論さえ学べば<br />
-								  	意外なほど簡単に音楽を作ることが出来ます。
+			</div>
+		</article>
+		<article>
+			<div class="row">
+				<div class="col s12 m10 offset-m1 l8 offset-l2">
+					<h1 class="header">ORGANIZATIONAL STRUCTURE</h1>
+					<div class="card-panel grey darken-2 white-text">
+						<p>
+							U.C.Worksはグラフィック、プログラミング、サウンド、シナリオの４つの部門で構成されています。
+							個々の部門でそれぞれ作品を作るとともに、ゲーム制作を協力して行います。
+						</p>
+						<ul class="collapsible" data-collapsible="expandable">
+						  <li>
+					      <div class="collapsible-header active grey darken-3">▼PROGRAMMING</div>
+					      <div class="collapsible-body"><p>
+                  【活動】<br/>普段は課題を設定してその仕様を満たすプログラムを作成したり、そのための勉強をしたりしています。</br>
+                  サークルHPの管理も行っています。<br/>
+                  【環境】<br/>使用言語は主にC++。それ以外にもJava,VisualBasic,Javascript,etc…COBOLを使う人もいます。<br/>
+                  工学部1年生はCやC++を学ぶので
+                  サークルでの勉強が無駄になることはありません。</br>
+                  ゲーム制作には初心者でも扱いやすいDXライブラリを使用しています。</br>
+                  初心者には分かりにくい分野ですがプログラミングの勉強の仕方、
+                  基礎的な概念は先輩が教えてくれます。
+                  またC++言語には無限の知識があります。
+                  経験と自信のある方、一緒に自分を磨きませんか?
+                </p></div>
+					    </li>
+					    <li>
+					      <div class="collapsible-header grey darken-3">▼GRAPHIC</div>
+					      <div class="collapsible-body"><p>
+										【活動】<br/>普段はpixivのグループ機能やクラウドグループウェアのサイボウズを使ってイラスト・3Dモデルを公開し、<br />
+							      サークル内のメンバーから感想や意見をもらっています。年によっては同人作品をコミックマーケットにて<br />
+						  	    頒布しています。<br />
+							      【環境】</br>初心者には無料ソフトウェアGIMPをオススメしていますが、Photoshop,SAIなどを使う人もいます。<br />
+							      グラフィックの作成にはペンタブを用いるのが一般的ですが、マウスで棒人間GIFやドット絵を描いたり、<br />
+							      鉛筆・シャープペンシルでアナログ絵を描いたりする人もいます。<br />
+							      3Dモデル制作にはMetasequoiaを使用しています。<br />
+							      初心者でも経験者でも楽しむことができます。
 									</p></div>
-				    </li>
-						<li>
-				      <div class="collapsible-header grey darken-3">SCENARIO</div>
-				      <div class="collapsible-body"><p>
-									  【活動】：普段はゲームシナリオや短編小説などを自由に執筆し、互いの作品について、感想を述べたり<br />
-									  　　　　　アドバイスをしたりしています。秋に行われる学園祭では小冊子を作って配布しています。<br />
-									  【環境】：紙面編集にはMicrosoft Wordを、ゲームシナリオの場合はメモ帳等のテキストファイルを使います。<br />
-									  物語をどうやって書いたらいいかわからない、文章を長く書けそうにない。そう思う方がいるかもしれませんが、<br />
-									  やる気があれば問題ありません。書き方はゆっくり覚えていけばいいですし、書きたいストーリーがあれば、<br />
-									  自然と文章は長くなります。日頃の空想を作品にしてみたいと考えている方、大歓迎です。
-									</p></div>
-				    </li>
-					</ul>
+					    </li>
+					    <li>
+					      <div class="collapsible-header grey darken-3">▼SOUND</div>
+					      <div class="collapsible-body"><p>
+										  【活動】：普段は活動最低限必要な楽典を学ぶための講座を開いて勉強をしたり、30秒程度の曲を<br />
+									  	　　　　　作成して相互に評価したりしています。ゲームのプロジェクトではBGMや効果音を担当します。<br />
+										  【環境】：現在は無料の音楽編集ソフトDominoを使用して曲を作成していますが、<br />
+										  　　　　　Cubaseなどより本格的なDAWソフトを導入することも考えています。<br />
+										  　　　　　コンピュータとマウスがあれば音楽制作はできますが、MIDIキーボードがあるとより<br />
+										  　　　　　簡単に音楽を作ることが出来るようになります。<br />
+										  DTMの経験がある方、楽器の経験がある方はもちろん、初心者でも基本的なコード理論さえ学べば<br />
+									  	意外なほど簡単に音楽を作ることが出来ます。
+										</p></div>
+					    </li>
+							<li>
+					      <div class="collapsible-header grey darken-3">▼SCENARIO</div>
+					      <div class="collapsible-body"><p>
+										  【活動】：普段はゲームシナリオや短編小説などを自由に執筆し、互いの作品について、感想を述べたり<br />
+										  　　　　　アドバイスをしたりしています。秋に行われる学園祭では小冊子を作って配布しています。<br />
+										  【環境】：紙面編集にはMicrosoft Wordを、ゲームシナリオの場合はメモ帳等のテキストファイルを使います。<br />
+										  物語をどうやって書いたらいいかわからない、文章を長く書けそうにない。そう思う方がいるかもしれませんが、<br />
+										  やる気があれば問題ありません。書き方はゆっくり覚えていけばいいですし、書きたいストーリーがあれば、<br />
+										  自然と文章は長くなります。日頃の空想を作品にしてみたいと考えている方、大歓迎です。
+										</p></div>
+					    </li>
+						</ul>
+					</div>
 				</div>
-			</article>
-			<article class="card grey darken-2">
-				<div class="card-content white-text">
-					<h3 class="card-title">ACTIVY INFORMATION</h3>
-						<section>
-							<h6 class="card-title">TIME &amp; PLACE</h6>
+			</div>
+		</article>
+		<article>
+			<div class="row">
+				<div class="col s12 m10 offset-m1 l8 offset-l2">
+					<h1 class="header">ACTIVY INFORMATION</h1>
+					<div class="card-panel grey darken-2 white-text">
+						<h2 class="card-title">TIME &amp; PLACE</h2>
 							<p>
 								時刻:毎週金曜日　18:30～21:00<br />
 								場所:中京大学　豊田キャンパス　16号館4階　グループ研究室B又はグループ研究室D<br />
@@ -109,12 +169,17 @@
 								（17時ぐらいから始まる学期もあります。）<br />
 								終了時刻は最長21:00までで、早く終わることもあります。
 							</p>
-						</section>
 					</div>
-			 </article>
-		 </div>
+				</div>
+			</div>
+		</article>
 	</main>
 	<footer>
-  	</footer>
+        <div class="footer-copyright grey darken-4 white-text">
+            <div class="container">
+            Copyright © 2005-2016 All rights reserved. U.C.Works
+            </div>
+          </div>
+  </footer>
 </body>
 </html>

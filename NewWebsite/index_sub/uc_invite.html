@@ -2,86 +2,146 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>U.C.Works - INVITE -</title>
+    <meta name="viewport" content="initial-scale=1.0">
     <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-  	<script src="../js/materialize.js"></script>
+    <link href="../css/defaultstyle.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="../js/materialize.js"></script>
+    <script type="text/javascript">
+    $( document ).ready(function(){
+        $(".button-collapse").sideNav();
+    })
+    </script>
+    <title>U.C.Works</title>
 </head>
-
 <body>
-  <div class="row">
-    <div class="col s12 m10 offset-m1 l8 offset-l2">
-      <header class="card grey darken-2">
-        <div class="card-content white-text">
-          <p>
-            このページでは、U.C.Worksに興味を持った方向けの情報を公開しています。
-          </p>
+  <header>
+  </div>
+        <ul id="dropdown" class="dropdown-content">
+            <li><a href="../index_sub/content/uc_game.html">GAME</a></li>
+            <li><a href="../index_sub/content/uc_program.html">PROGRAM</a></li>
+            <li><a href="../index_sub/content/uc_graphic.html">GRAPHIC</a></li>
+            <li><a href="../index_sub/content/uc_scenario.html">SCENARIO</a></li>
+            <li><a href="../index_sub/content/uc_sound.html">SOUND</a></li>
+        </ul>
+        <ul id="dropdown-mobile" class="dropdown-content">
+            <li><a href="../index_sub/content/uc_game.html">GAME</a></li>
+            <li><a href="../index_sub/content/uc_program.html">PROGRAM</a></li>
+            <li><a href="../index_sub/content/uc_graphic.html">GRAPHIC</a></li>
+            <li><a href="../index_sub/content/uc_scenario.html">SCENARIO</a></li>
+            <li><a href="../index_sub/content/uc_sound.html">SOUND</a></li>
+        </ul>
+        <nav>
+            <div class="nav-wrapper grey darken-4">
+              <a href="..#!" class="right brand-logo">U.C.Works</a>
+              <a href="..#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+              <ul class="hide-on-med-and-down">
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="../index_sub/uc_about.html">ABOUT</a></li>
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown">CONTENT<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="../index_sub/uc_invite.html">INVITE</a></li>
+                <li><a href="../index_sub/uc_contact.html">CONTACT</a></li>
+              </ul>
+
+              <ul class="side-nav grey darken-4" id="mobile-nav">
+                  <li><a href="../index.html">HOME</a></li>
+                  <li><a href="../index_sub/uc_about.html">ABOUT</a></li>
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown-mobile" >CONTENT<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="../index_sub/uc_invite.html">INVITE</a></li>
+                <li><a href="../index_sub/uc_contact.html">CONTACT</a></li>
+              </ul>
+            </div>
+          </nav>
+
+  </header>
+  <main>
+    <article>
+      <div class="row">
+        <div class="col s12 m10 offset-m1 l8 offset-l2">
+          <div class="card-panel grey darken-2 white-text">
+            <p>
+              このページでは、U.C.Worksに興味を持った方向けの情報を公開しています。
+            </p>
+          </div>
         </div>
-      </header>
-      <article class="card grey darken-2">
-        <div class="card-content white-text">
-          <h3 class="card-title">説明会の開催について</h3>
-          <section>
-              <h6 class="card-title">○第一回説明会</h6>
+      </div>
+    </article>
+    <article>
+      <div class="row">
+        <div class="col s12 m10 offset-m1 l8 offset-l2">
+          <h1 class="header">説明会の開催について</h1>
+          <div class="card-panel grey darken-2 white-text">
+            <section>
+              <h2 class="card-title">○第一回説明会</h2>
               <ul>
-                  <li>
-                      集合時刻：4月5日 　火曜日　17:00
-                  </li>
-                  <li>
-                      集合場所：中京大学　豊田キャンパス　19号館3階
-                  </li>
+                <li>
+                    集合時刻：4月5日 　火曜日　17:00
+                </li>
+                <li>
+                    集合場所：中京大学　豊田キャンパス　19号館3階
+                </li>
               </ul>
-          </section>
-          <section>
-              <h6 class="card-title">○第二回説明会</h6>
+            </section>
+            <section>
+              <h2 class="card-title">○第二回説明会</h2>
               <ul>
-                  <li>
-                      集合時刻：4月15日 　金曜日　18:30
-                  </li>
-                  <li>
-                      集合場所：中京大学　豊田キャンパス　19号館3階
-                  </li>
+                <li>
+                  集合時刻：4月15日 　金曜日　18:30
+                </li>
+                <li>
+                  集合場所：中京大学　豊田キャンパス　19号館3階
+                </li>
               </ul>
-          </section>
-          <p>
+            </section>
+            <p>
               集合場所にはU.C.Worksメンバーだと分かるようにした数人が待機しています。
               集合時刻になりましたら普段の活動教室まで移動しますが、集合時刻以降も
               暫くはメンバーが一人以上待機しています。
-          </p>
-          <p>
+            </p>
+            <p>
               説明会は30分ほどで終了します。後は自由解散ですので
               各部門についての質問、サークル自体の質問があれば遠慮せずしてください。
-          </p>
+            </p>
+          </div>
         </div>
-      </article>
-      <aside class="card grey darken-2">
-        <div class="card-content white-text">
-          <span class="card-title">その他情報</span>
-          <ul>
+      </div>
+    </article>
+    <aside>
+      <div class="row">
+        <div class="col s12 m10 offset-m1 l8 offset-l2">
+          <h1 class="header">その他情報</h1>
+          <div class="card-panel grey darken-2 white-text">
+            <ul>
               <li>
-                  <p>
-                      メンバーの中には通学時間が片道2時間30の人もいます。
-                      学際、ゲーム制作等の作業内容は忙しさ、移動時間、スキル等を考慮して決まります。
-                  </p>
+                <p>
+                  メンバーの中には通学時間が片道2時間30の人もいます。
+                  学際、ゲーム制作等の作業内容は忙しさ、移動時間、スキル等を考慮して決まります。
+                </p>
               </li>
               <li>
-                  <p>
-                      毎週金曜日にミーティングを行い、部門ごとの活動の協力、ゲーム制作の打ち合わせ、今後の活動計画を話し合っています。
-                      ミーティングには極力参加することを求めていますが、参加できない場合はグループウェアのサイボウズ掲示板上に
-                      ミーティング内容を掲載するので次回の参加までに読んでおけば問題はありません。
-                  </p>
+                <p>
+                    毎週金曜日にミーティングを行い、部門ごとの活動の協力、ゲーム制作の打ち合わせ、今後の活動計画を話し合っています。
+                    ミーティングには極力参加することを求めていますが、参加できない場合はグループウェアのサイボウズ掲示板上に
+                    ミーティング内容を掲載するので次回の参加までに読んでおけば問題はありません。
+                </p>
               </li>
               <li>
-                  <p>
-                    テスト期間直前の1週間前からテスト終了まではサークルのミーティングはありません。
-                  </p>
+                <p>
+                  テスト期間直前の1週間前からテスト終了まではサークルのミーティングはありません。
+                </p>
               </li>
-          </ul>
+            </ul>
+          </div>
         </div>
-      </aside>
-    </div>
-  </div>
+      </div>
+    </aside>
   <footer>
+        <div class="footer-copyright grey darken-4 white-text">
+            <div class="container">
+            Copyright © 2005-2016 All rights reserved. U.C.Works
+            </div>
+          </div>
   </footer>
 </body>
 </html>
