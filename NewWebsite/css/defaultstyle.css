@@ -33,3 +33,7 @@ header{
 .dropdown-content li > a{
   color: #212121;
 }
+
+.image-float li{
+  display: inline-block;
+}
