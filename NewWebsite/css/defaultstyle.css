@@ -43,3 +43,13 @@ header{
 main {
     flex: 1 0 auto;
 }
+.l-childrenimg{
+  padding-right: 0 !important;
+}
+.r-childrenimg{
+  padding-left: 0 !important;
+}
+.c-childrenimg{
+  padding-right: 0.35rem !important;
+  padding-left: 0.45rem !important;
+}
