@@ -2,19 +2,63 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>SCENARIO - こみかみっ！（プロローグ）-</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1.0">
         <link href="../../../../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="../../../../css/defaultstyle.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="../../../../js/materialize.js"></script>
+        <script type="text/javascript">
+        $( document ).ready(function(){
+            $(".button-collapse").sideNav();
+        })
+        </script>
+        <title>SCENARIO - こみかみっ！（プロローグ）-</title>
     </head>
     <body>
-        <header>
+        <ul id="dropdown" class="dropdown-content">
+            <li><a href="../../../../index_sub/content/uc_game.html">GAME</a></li>
+            <li><a href="../../../../index_sub/content/uc_program.html">PROGRAM</a></li>
+            <li><a href="../../../../index_sub/content/uc_graphic.html">GRAPHIC</a></li>
+            <li><a href="../../../../index_sub/content/uc_scenario.html">SCENARIO</a></li>
+            <li><a href="../../../../index_sub/content/uc_sound.html">SOUND</a></li>
+        </ul>
+        <ul id="dropdown-mobile" class="dropdown-content">
+            <li><a href="../../../../index_sub/content/uc_game.html">GAME</a></li>
+            <li><a href="../../../../index_sub/content/uc_program.html">PROGRAM</a></li>
+            <li><a href="../../../../index_sub/content/uc_graphic.html">GRAPHIC</a></li>
+            <li><a href="../../../../index_sub/content/uc_scenario.html">SCENARIO</a></li>
+            <li><a href="../../../../index_sub/content/uc_sound.html">SOUND</a></li>
+        </ul>
+        <nav>
+            <div class="nav-wrapper grey darken-4">
+              <a href="../../../../index.html" class="right brand-logo">U.C.Works</a>
+              <a href="../..#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+              <ul class="hide-on-med-and-down">
+                <li><a href="../../../../index.html">HOME</a></li>
+                <li><a href="../../../../index_sub/uc_about.html">ABOUT</a></li>
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown">CONTENT<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="../../../../index_sub/uc_invite.html">INVITE</a></li>
+                <li><a href="../../../../index_sub/uc_contact.html">CONTACT</a></li>
+              </ul>
+
+              <ul class="side-nav grey darken-4" id="mobile-nav">
+                  <li><a href="../../../../index.html">HOME</a></li>
+                  <li><a href="../../../../index_sub/uc_about.html">ABOUT</a></li>
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown-mobile" >CONTENT<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="../../../../index_sub/uc_invite.html">INVITE</a></li>
+                <li><a href="../../../../index_sub/uc_contact.html">CONTACT</a></li>
+              </ul>
+            </div>
+          </nav>
 
         </header>
+
         <main>
             <article class ="container">
                 <div class="row">
-                     <div class="col s12 m12">
+                     <div class="col s12">
                         <div class="card-panel grey darken-2 white-text">
                             <span class="card-title center"><h3 >こみかみっ！（プロローグ）</h3></span>
                             <pre class="container">
@@ -456,7 +500,11 @@
             </article>
         </main>
         <footer>
-
+            <div class="footer-copyright grey darken-4 white-text">
+                <div class="container">
+                Copyright © 2005-2016 All rights reserved. U.C.Works
+                </div>
+              </div>
         </footer>
     </body>
 </html>
