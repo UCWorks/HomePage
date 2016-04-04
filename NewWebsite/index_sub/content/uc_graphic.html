@@ -1,177 +1,265 @@
 ﻿<!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="initial-scale=1.0">
-        <link href="../../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-        <link href="../../css/defaultstyle.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script src="../../js/materialize.js"></script>
-        <script type="text/javascript">
-        $( document ).ready(function(){
-            $(".button-collapse").sideNav();
-             $('.carousel').carousel();
-        })
-        </script>
-        <title>U.C.Works</title>
-    </head>
-    <body>
-        <header>
-        <ul id="dropdown" class="dropdown-content">
-            <li><a href="../../index_sub/content/uc_game.html">GAME</a></li>
-            <li><a href="../../index_sub/content/uc_program.html">PROGRAM</a></li>
-            <li><a href="../../index_sub/content/uc_graphic.html">GRAPHIC</a></li>
-            <li><a href="../../index_sub/content/uc_scenario.html">SCENARIO</a></li>
-            <li><a href="../../index_sub/content/uc_sound.html">SOUND</a></li>
-        </ul>
-        <ul id="dropdown-mobile" class="dropdown-content">
-            <li><a href="../../index_sub/content/uc_game.html">GAME</a></li>
-            <li><a href="../../index_sub/content/uc_program.html">PROGRAM</a></li>
-            <li><a href="../../index_sub/content/uc_graphic.html">GRAPHIC</a></li>
-            <li><a href="../../index_sub/content/uc_scenario.html">SCENARIO</a></li>
-            <li><a href="../../index_sub/content/uc_sound.html">SOUND</a></li>
-        </ul>
-        <nav>
-            <div class="nav-wrapper grey darken-4">
-              <a href="../../index.html" class="right brand-logo">U.C.Works</a>
-              <a href="../..#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
-              <ul class="hide-on-med-and-down">
-                <li><a href="../../index.html">HOME</a></li>
-                <li><a href="../../index_sub/uc_about.html">ABOUT</a></li>
-                <li><a class="dropdown-button" href="#!" data-activates="dropdown">CONTENT<i class="material-icons right">arrow_drop_down</i></a></li>
-                <li><a href="../../index_sub/uc_invite.html">INVITE</a></li>
-                <li><a href="../../index_sub/uc_contact.html">CONTACT</a></li>
-              </ul>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0">
+		<link href="../../css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link href="../../css/defaultstyle.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="../../js/materialize.min.js"></script>
+		<link rel="shortcut icon" href="../../img/favicon.ico">
+		<script type="text/javascript">
+		$( document ).ready(function(){
+			$(".button-collapse").sideNav();
+			 $('.carousel').carousel();
+			 $('.collapsible').collapsible({
+				 accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+			 });
+		})
+		</script>
+		<title>U.C.Works - GRAPHIC -</title>
+	</head>
+	<body>
+		<header>
+		<ul id="dropdown" class="dropdown-content">
+			<li><a href="../../index_sub/content/uc_game.html">GAME</a></li>
+			<li><a href="../../index_sub/content/uc_program.html">PROGRAM</a></li>
+			<li><a href="../../index_sub/content/uc_graphic.html">GRAPHIC</a></li>
+			<li><a href="../../index_sub/content/uc_scenario.html">SCENARIO</a></li>
+			<li><a href="../../index_sub/content/uc_sound.html">SOUND</a></li>
+		</ul>
+		<ul id="dropdown-mobile" class="dropdown-content">
+			<li><a href="../../index_sub/content/uc_game.html">GAME</a></li>
+			<li><a href="../../index_sub/content/uc_program.html">PROGRAM</a></li>
+			<li><a href="../../index_sub/content/uc_graphic.html">GRAPHIC</a></li>
+			<li><a href="../../index_sub/content/uc_scenario.html">SCENARIO</a></li>
+			<li><a href="../../index_sub/content/uc_sound.html">SOUND</a></li>
+		</ul>
+		<nav>
+			<div class="nav-wrapper grey darken-4">
+			  <a href="../../index.html" class="right brand-logo">U.C.Works</a>
+			  <a href="../..#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+			  <ul class="hide-on-med-and-down">
+				<li><a href="../../index.html">HOME</a></li>
+				<li><a href="../../index_sub/uc_about.html">ABOUT</a></li>
+				<li><a class="dropdown-button" href="#!" data-activates="dropdown">CONTENT<i class="material-icons right">arrow_drop_down</i></a></li>
+				<li><a href="../../index_sub/uc_invite.html">INVITE</a></li>
+				<li><a href="../../index_sub/uc_contact.html">CONTACT</a></li>
+			  </ul>
 
-              <ul class="side-nav grey darken-4" id="mobile-nav">
-                  <li><a href="../../index.html">HOME</a></li>
-                  <li><a href="../../index_sub/uc_about.html">ABOUT</a></li>
-                <li><a class="dropdown-button" href="#!" data-activates="dropdown-mobile" >CONTENT<i class="material-icons right">arrow_drop_down</i></a></li>
-                <li><a href="../../index_sub/uc_invite.html">INVITE</a></li>
-                <li><a href="../../index_sub/uc_contact.html">CONTACT</a></li>
-              </ul>
-            </div>
-          </nav>
-        </header>
-        <main>
-            <article>
-                <div class="row">
-                    <div class="col s12 m10 offset-m1 l8 offset-l2">
-                            <h1 class="card-title">GRAPHIC</h1>
-                            <div class="card-panel grey darken-2 white-text">
-                            <p>
-                                このページではU.C.Worksのグラフィック部門が制作したイラスト、3Dグラフィックを公開しています。<br>
-                                アイコンの選択で画像別ページへ移動します。<br>
-                            </p>
-                            <p>
-                                18禁コンテンツはこちら
-                            </p>
-                            <a href="./uc_graphic_r18.html" class="waves-effect waves-light btn grey darken-4  white-text">R-18</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col s12 m10 offset-m1 l8 offset-l2">
-                            <section>
-                                <h1 class="card-title">ILLUST</h1>
-                                <div class="card-panel grey darken-2 white-text">
-                                    <div class="carousel">
-                                        <a class="carousel-item" href="graphic_resource/works/tsuisou_allure.jpg"><img src="./graphic_resource/icon/tsuisou_allure.png" alt="Book 追想-Allure- UnivFes2009"></a>
-                                        <a class="carousel-item" href="graphic_resource/works/aka_univfes2010.png"><img src="./graphic_resource/icon/aka.png" alt="CopyBook AKA UnivFes2010"></a>
-                                        <a class="carousel-item"  href="graphic_resource/works/2011M3.png"><img src="./graphic_resource/icon/hakoniwagenkai.png"alt="CD 箱庭幻想 2011M3"></a>
-                                        <a class="carousel-item"  href="graphic_resource/works/2009univFes.jpg"><img src="./graphic_resource/icon/gensou_allure.png"alt="CD 幻想-Allure- UnivFes2009"></a>
-                                        <a class="carousel-item" href="graphic_resource/works/C79_cd.jpg"><img src="./graphic_resource/icon/there_is_nothing.png"alt="CD There is nothing C79"></a>
-                                        <a class="carousel-item" href="graphic_resource/works/alice_c81.png"><img src="./graphic_resource/icon/alice.png"alt="Game Alice in Wonderland by Rozencat"></a>
+			  <ul class="side-nav grey darken-4" id="mobile-nav">
+				  <li><a href="../../index.html">HOME</a></li>
+				  <li><a href="../../index_sub/uc_about.html">ABOUT</a></li>
+				<li><a class="dropdown-button" href="#!" data-activates="dropdown-mobile" >CONTENT<i class="material-icons right">arrow_drop_down</i></a></li>
+				<li><a href="../../index_sub/uc_invite.html">INVITE</a></li>
+				<li><a href="../../index_sub/uc_contact.html">CONTACT</a></li>
+			  </ul>
+			</div>
+		  </nav>
+		</header>
+		<main>
+			<article>
+				<div class="row">
+					<div class="col s12 m10 offset-m1 l8 offset-l2">
+							<h1 class="card-title">GRAPHIC</h1>
+							<div class="card-panel grey darken-2 white-text">
+							<p>
+								このページではU.C.Worksのグラフィック部門が制作したイラスト、3Dグラフィックを公開しています。<br>
+								アイコンの選択で画像別ページへ移動します。<br>
+							</p>
+							<p>
+								18禁コンテンツはこちら
+							</p>
+							<a href="./uc_graphic_r18.html" class="waves-effect waves-light btn grey darken-4  white-text">R-18</a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s12 m10 offset-m1 l8 offset-l2">
+							<section>
+								<h1 class="card-title">ILLUST</h1>
+								<div class="card-panel grey darken-2 white-text">
+									<ul class="image-float">
+										<li>
+											<a class="carousel-item" href="graphic_resource/works/tsuisou_allure.jpg"><img src="./graphic_resource/icon/tsuisou_allure.png" alt="Book 追想-Allure- UnivFes2009"></a>
+										</li>
+										<li>
+											<a class="carousel-item" href="graphic_resource/works/aka_univfes2010.png"><img src="./graphic_resource/icon/aka.png" alt="CopyBook AKA UnivFes2010"></a>
+										</li>
+										<li>
+											<a class="carousel-item"  href="graphic_resource/works/2011M3.png"><img src="./graphic_resource/icon/hakoniwagenkai.png"alt="CD 箱庭幻想 2011M3"></a>
+										</li>
+										<li>
+											<a class="carousel-item"  href="graphic_resource/works/2009univFes.jpg"><img src="./graphic_resource/icon/gensou_allure.png"alt="CD 幻想-Allure- UnivFes2009"></a>
+										</li>
+										<li>
+											<a class="carousel-item" href="graphic_resource/works/C79_cd.jpg"><img src="./graphic_resource/icon/there_is_nothing.png"alt="CD There is nothing C79"></a>
+										</li>
+										<li>
+											<a class="carousel-item" href="graphic_resource/works/alice_c81.png"><img src="./graphic_resource/icon/alice.png"alt="Game Alice in Wonderland by Rozencat"></a>
+										</li>
+									</ul>
+							</div>
+						</section>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s12 m10 offset-m1 l8 offset-l2">
+							<section>
+								<h1 class="card-title">3DGraphic</h1>
+								<div class="card-panel grey darken-2 white-text">
+								<ul class="image-float">
+									<li><a class="responsive-img" href="./graphic_resource/works/cherry.png" ><img src="./graphic_resource/icon/cherry_icon.png" alt="Cherry 3DGraphic"/></a></li>
+									<li><a class="responsive-img" href="./graphic_resource/works/object.png" ><img src="./graphic_resource/icon/object_icon.png" alt="Object 3DGraphic"/></a></li>
+								</ul>
+							</div>
+						</section>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="row">
+					<div class="col s12 m10 offset-m1 l8 offset-l2">
+						<h1 class="card-title">POSTER</h1>
+						<div class="card-panel grey darken-2 white-text">
+						<p>
+							グラフィック部門が描いた平成27年度のポスターです。
+							A4ポスター故にサイズが大変大きいです。
+							表示領域が小さい端末で閲覧をされる方は気をつけください。
+						</p>
+						<strong>
+							※注意　H28年度の説明会は4月12・15日です。
+							ポスターに記載されている内容とは異なりますのでご注意ください。
+						</strong>
+						<ul class="collapsible" data-collapsible="accordion">
+							<li>
+								<div class="collapsible-header grey darken-3 active">▼H28</div>
+								<div class="collapsible-body">
+									<section>
+										<em>Ver.1</em>
+										<p>
+											アニメ『PSYCHO-PASS』のサイバーパンクをイメージにしたポスターです。
+											背景にはサウンド部門を表す波形データ、グラフィック部門を表す3Dモデル、
+											プログラミング部門を表すソースコードが描かれています。
+											H27年度のポスターを再利用しています。
+										</p>
+										<ul>
+											<li><a href="./graphic_resource/poster/core1poster.jpg" ><img class="responsive-img" src="./graphic_resource/icon/core1poster_icon.png" alt="" /></a></li>
+										</ul>
+									</section>
+									<section>
+										<em>Ver.2</em>
+										<p>
+											
+										</p>
+										<ul class="image-float">
+											<li>
+												<a href="./graphic_resource/poster/Nishiki.jpg" title="">
+													<img class="responsive-img" src="./graphic_resource/icon/Nishiki_icon.png" alt="" />
+												</a>
+											</li>
+										</ul>
+									</section>
+									<section>
+										<em>Ver.3</em>
+										<p>
+											他２つにはない、「明るさ」「キャラもの」をです。
+										</p>
+										<ul>
+											<li>
+												<a href="./graphic_resource/poster/Rot.png" title="">
+													<img class="responsive-img" src="./graphic_resource/icon/Rot_icon.png" alt="" />
+												</a>
+											</li>
+										</ul>
+									</section>
 
-                                  </div>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col s12 m10 offset-m1 l8 offset-l2">
-                            <section>
-                                <h1 class="card-title">3DGraphic</h1>
-                                <div class="card-panel grey darken-2 white-text">
-                                <ul class="image-float">
-                                    <li><a class="responsive-img" href="./graphic_resource/works/cherry.png" ><img src="./graphic_resource/icon/cherry_icon.png" alt="Cherry 3DGraphic"/></a></li>
-                                    <li><a class="responsive-img" href="./graphic_resource/works/object.png" ><img src="./graphic_resource/icon/object_icon.png" alt="Object 3DGraphic"/></a></li>
-                                </ul>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-            </article>
-            <article>
-                <div class="row">
-                    <div class="col s12 m10 offset-m1 l8 offset-l2">
-                        <h1 class="card-title">POSTER</h1>
-                        <div class="card-panel grey darken-2 white-text">
-                        <p>
-                            グラフィック部門が描いた平成27年度のポスターです。
-                            A4ポスター故にサイズが大変大きいです。
-                            表示領域が小さい端末で閲覧をされる方は気をつけください。
-                        </p>
-                        <section>
-                            <em>Ver.1</em>
-                                <p>
-                                    アニメ『PSYCHO-PASS』のサイバーパンクをイメージにしたポスターです。
-                                    背景にはサウンド部門を表す波形データ、グラフィック部門を表す3Dモデル、
-                                    プログラミング部門を表すソースコードが描かれています。
-                                </p>
-                                <ul>
-                                    <li><a href="./graphic_resource/poster/core1poster.jpg" ><img class="responsive-img" src="./graphic_resource/icon/core1poster_icon.png" alt="" /></a></li>
-                                </ul>
-                            </section>
-                            <section>
-                                <em>Ver.2</em>
-                                    <p>
-                                        映画『楽園追放』に登場するフロンティアセッターと呼ばれる
-                                        キャラクターが持つコンピュータの背景をモチーフにしています。
-                                        背景にはサウンド部門を表す波形データ、グラフィック部門を表す線画、
-                                        プログラミング部門を表すソースコード、シナリオ部門を表す英文が描かれています。
-                                        英文の内容はヘンゼルとグレーテル。左は掲示ポスター、右はビラver。
-                                    </p>
-                                    <ul class="image-float">
-                                            <li><a href="./graphic_resource/poster/core2poster.jpg" ><img class="responsive-img" src="./graphic_resource/icon/core2poster_icon.png" alt="" /></a></li>
-                                            <li><a href="./graphic_resource/poster/core2bill.jpg" ><img class="responsive-img" src="./graphic_resource/icon/core2bill_icon.png" alt="" /></a></li>
-                                    </ul>
-                            </section>
-                            <section>
-                                <em>Ver.3</em>
-                                <p>
-                                    ホラー形フリーゲーム『ib』をモチーフにしたポスターです。
-                                    四隅にはキャラクターの残りHPを表すバラを描いています。
-                                    ゆっくりはゲームに登場するキャラクター『メアリー』。
-                                    左は掲示ポスター、右はビラver。
-                                </p>
-                                <ul class="image-float">
-                                    <li><a href="./graphic_resource/poster/buchiposter.jpg" title=""><img class="responsive-img" src="./graphic_resource/icon/buchiposter_icon.png" alt="" /></a></li>
-                                    <li><a href="./graphic_resource/poster/buchibill.jpg" title=""><img class="responsive-img" src="./graphic_resource/icon/buchibill_icon.png" alt="" /></a></li>
-                                </ul>
-                            </section>
-                            <section>
-                                <em>Ver.4</em>
-                                <p>
-                                    複数の立方体を配置した背景の後ろにこのポスターを
-                                    C言語で表示する場合のソースコードが配置してあります。
-                                </p>
-                                <ul>
-                                    <li><a href="./graphic_resource/poster/kichinagaposter.jpg" title=""><img class="responsive-img" src="./graphic_resource/icon/kichinagaposter_icon.png" alt="" /></a></li>
-                                </ul>
-                            </section>
-                        </div>
-                    </div>
-                </div>
-            </article>
-        </main>
-        <footer>
-            <div class="footer-copyright grey darken-4 white-text">
-                <div class="container">
-                Copyright © 2005-2016 All rights reserved. U.C.Works
-                </div>
-            </div>
-        </footer>
-    </body>
+								<div>
+							</li>
+							<li>
+								<div class="collapsible-header grey darken-3">▼H27</div>
+								<div class="collapsible-body">
+									<section>
+										<em>Ver.1</em>
+										<p>
+											アニメ『PSYCHO-PASS』のサイバーパンクをイメージにしたポスターです。
+											背景にはサウンド部門を表す波形データ、グラフィック部門を表す3Dモデル、
+											プログラミング部門を表すソースコードが描かれています。
+										</p>
+										<ul>
+											<li><a href="./graphic_resource/poster/core1poster.jpg" ><img class="responsive-img" src="./graphic_resource/icon/core1poster_icon.png" alt="" /></a></li>
+										</ul>
+									</section>
+									<section>
+										<em>Ver.2</em>
+										<p>
+											映画『楽園追放』に登場するフロンティアセッターと呼ばれる
+											キャラクターが持つコンピュータの背景をモチーフにしています。
+											背景にはサウンド部門を表す波形データ、グラフィック部門を表す線画、
+											プログラミング部門を表すソースコード、シナリオ部門を表す英文が描かれています。
+											英文の内容はヘンゼルとグレーテル。左は掲示ポスター、右はビラver。
+										</p>
+										<ul class="image-float">
+											<li>
+												<a href="./graphic_resource/poster/core2poster.jpg" ><img class="responsive-img" src="./graphic_resource/icon/core2poster_icon.png" alt="" />
+												</a>
+											</li>
+											<li>
+												<a href="./graphic_resource/poster/core2bill.jpg" >
+													<img class="responsive-img" src="./graphic_resource/icon/core2bill_icon.png" alt="" />
+												</a>
+											</li>
+										</ul>
+									</section>
+									<section>
+										<em>Ver.3</em>
+										<p>
+											ホラー形フリーゲーム『ib』をモチーフにしたポスターです。
+											四隅にはキャラクターの残りHPを表すバラを描いています。
+											ゆっくりはゲームに登場するキャラクター『メアリー』。
+											左は掲示ポスター、右はビラver。
+										</p>
+										<ul class="image-float">
+											<li>
+												<a href="./graphic_resource/poster/buchiposter.jpg" title="">
+													<img class="responsive-img" src="./graphic_resource/icon/buchiposter_icon.png" alt="" />
+												</a>
+											</li>
+											<li>
+												<a href="./graphic_resource/poster/buchibill.jpg" title="">
+													<img class="responsive-img" src="./graphic_resource/icon/buchibill_icon.png" alt="" />
+												</a>
+											</li>
+										</ul>
+									</section>
+									<section>
+										<em>Ver.4</em>
+										<p>
+											複数の立方体を配置した背景の後ろにこのポスターを
+											C言語で表示する場合のソースコードが配置してあります。
+										</p>
+										<ul>
+											<li>
+												<a href="./graphic_resource/poster/kichinagaposter.jpg" title="">
+													<img class="responsive-img" src="./graphic_resource/icon/kichinagaposter_icon.png" alt="" />
+												</a>
+											</li>
+										</ul>
+									</section>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</article>
+		</main>
+		<footer>
+			<div class="footer-copyright grey darken-4 white-text">
+				<div class="container">
+				Copyright © 2005-2016 All rights reserved. U.C.Works
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>
